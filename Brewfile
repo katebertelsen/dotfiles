@@ -3,30 +3,30 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 
 # Core
-brew "stow"
-brew "zsh"
 brew "bash"
-brew "coreutils"
+brew "zsh"
+brew "stow"
+brew "vim"
+brew "tmux"
+brew "reattach-to-user-namespace"
+
+# Git
 brew "git"
 brew "git-lfs"
 brew "tig"
-brew "tmux"
-brew "tree"
-brew "vim"
-brew "reattach-to-user-namespace"
 
-# General
+# Helpful
 brew "cloc"
-cask "qlimagesize"
-cask "qlstephen"
-
-# iOS
-brew "carthage"
-cask "provisionql"
-brew "swiftlint"
+brew "tree"
 
 # Shell
 brew "shellcheck"
+cask "qlstephen" # plaintext files
+
+# iOS Development
+brew "carthage"
+brew "swiftlint"
+cask "provisionql"
 
 # JSON
 brew "jq"
@@ -43,9 +43,12 @@ brew "python"
 # Images
 brew "imagemagick"
 brew "ghostscript"
+cask "qlimagesize"
+
+# Video
+cask "qlvideo"
 
 # Fonts
-tap "homebrew/cask-fonts"
 cask "font-meslo-for-powerline"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
