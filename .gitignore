@@ -1,6 +1,8 @@
 .DS_Store
-vim.symlink/backup
-vim.symlink/.netrwhist
 **/*.pem
 
 dotfiles/.config/gtk-2.0/
+
+dotfiles/.vim/backup
+dotfiles/.vim/bundle
+dotfiles/.vim/.netrwhist
