@@ -147,7 +147,7 @@ echo -e "
 ###########################
 "
 
-pip3 install --quiet --user --upgrade -r ~/.Pipfile
+pip3 install --quiet --user --upgrade -r ~/.df/Pipfile
 
 
 echo -e "
