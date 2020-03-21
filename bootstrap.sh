@@ -84,7 +84,7 @@ echo -e "
 
 brew update
 brew upgrade
-brew bundle -v --global
+brew bundle --file=~/.df/Brewfile --no-lock
 brew cleanup
 
 
