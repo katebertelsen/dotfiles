@@ -42,19 +42,6 @@ fi
 
 
 echo -e "
-############################
-###     INSTALL STOW     ###
-############################
-"
-
-if $(brew list -1 | grep -Fqx "stow"); then
-    echo "Stow already installed"
-else
-    brew install stow
-fi
-
-
-echo -e "
 ###################################
 ###     CLONE DOTFILES REPO     ###
 ###################################
@@ -68,15 +55,6 @@ fi
 
 
 echo -e "
-#############################
-###     STOW DOTFILES     ###
-#############################
-"
-
-stow --verbose --restow --dir ~/.df/ --target ~/ --ignore=\.DS_Store dotfiles
-
-
-echo -e "
 ###########################
 ###     BREW BUNDLE     ###
 ###########################
@@ -86,6 +64,15 @@ brew update
 brew upgrade
 brew bundle --file=~/.df/Brewfile --no-lock
 brew cleanup
+
+
+echo -e "
+#############################
+###     STOW DOTFILES     ###
+#############################
+"
+
+stow --verbose --restow --dir ~/.df/ --target ~/ --ignore=\.DS_Store dotfiles
 
 
 echo -e "
@@ -122,9 +109,9 @@ fi
 
 
 echo -e "
-############################
-###     INSTALL RUBY     ###
-############################
+####################
+###     RUBY     ###
+####################
 "
 
 ruby-install -L
@@ -133,20 +120,12 @@ gem install bundler --conservative
 
 
 echo -e "
-###########################
-###     INSTALL PIP     ###
-###########################
+######################
+###     PYTHON     ###
+######################
 "
 
 pip3 install --quiet --upgrade pip
-
-
-echo -e "
-###########################
-###     PIP PACKAGES    ###
-###########################
-"
-
 pip3 install --quiet --user --upgrade -r ~/.df/Pipfile
 
 
@@ -195,3 +174,9 @@ EOD
 
 	echo "Iridium terminal theme installed"
 fi
+
+echo -e "
+####################
+###     DONE     ###
+####################
+"
