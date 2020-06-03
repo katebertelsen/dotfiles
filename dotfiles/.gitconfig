@@ -18,6 +18,8 @@
 	graph = log --oneline --color --graph --decorate
 [push]
 	default = simple
+[pull]
+	ff = only
 [include]
 	path = .local.gitconfig
 [credential]
