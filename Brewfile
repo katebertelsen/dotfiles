@@ -33,6 +33,9 @@ brew "docker"
 brew "docker-compose"
 cask "docker"
 
+# API Development
+cask "insomnia"
+
 # JSON
 brew "jq"
 cask "quicklook-json"
