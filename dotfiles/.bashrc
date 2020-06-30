@@ -8,6 +8,10 @@ if [ -f ~/.secrets ]; then
   source ~/.secrets
 fi
 
+if [ -f ~/.local.bash_profile ]; then
+  source ~/.local.bash_profile
+fi
+
 all_files=($DF/**/*.bash)
 
 # Source all of the path ones first
