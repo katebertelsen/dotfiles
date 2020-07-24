@@ -1,6 +1,6 @@
 [user]
 	name = Kate Bertelsen
-	email = bertelsk@wwt.com
+	email = kate.bertelsen@wwt.com
 [core]
 	excludesfile = ~/.gitignore
 	editor = /usr/local/bin/vim
