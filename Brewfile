@@ -10,6 +10,7 @@ brew "stow"
 brew "vim"
 brew "tmux"
 brew "reattach-to-user-namespace"
+cask "bettertouchtool"
 
 # Filesystem
 cask "dropbox"
@@ -48,6 +49,7 @@ brew "docker-compose"
 cask "docker"
 
 # API Development
+cask "charles"
 cask "insomnia"
 cask "intellij-idea-ce"
 
