@@ -79,3 +79,5 @@ cask "google-chrome"
 cask "slack"
 cask "sococo"
 
+# Security
+cask "1password"
