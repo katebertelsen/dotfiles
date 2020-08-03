@@ -87,3 +87,5 @@ cask "google-chrome"
 cask "slack"
 cask "sococo"
 
+# Fun
+cask "aerial"
