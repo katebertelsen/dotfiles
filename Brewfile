@@ -1,5 +1,6 @@
 tap "homebrew/core"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/bundle"
 
 # Core
