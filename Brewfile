@@ -11,6 +11,10 @@ brew "vim"
 brew "tmux"
 brew "reattach-to-user-namespace"
 
+# File Editing
+cask "textmate"
+cask "visual-studio-code"
+
 # Git
 brew "git"
 brew "git-lfs"
@@ -29,6 +33,9 @@ brew "carthage"
 brew "swiftlint"
 cask "provisionql"
 
+# Android Development
+cask "android-studio"
+
 # Docker
 brew "docker"
 brew "docker-compose"
@@ -36,6 +43,7 @@ cask "docker"
 
 # API Development
 cask "insomnia"
+cask "intellij-idea-ce"
 
 # JSON
 brew "jq"
@@ -63,6 +71,11 @@ cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-source-serif-pro"
 
+# Web Browsers
+cask "firefox"
+cask "google-chrome"
+
 # Team Communication
 cask "slack"
 cask "sococo"
+
