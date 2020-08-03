@@ -11,6 +11,12 @@ brew "vim"
 brew "tmux"
 brew "reattach-to-user-namespace"
 
+# Filesystem
+cask "dropbox"
+
+# Security
+cask "1password"
+
 # File Editing
 cask "textmate"
 cask "visual-studio-code"
@@ -79,5 +85,3 @@ cask "google-chrome"
 cask "slack"
 cask "sococo"
 
-# Security
-cask "1password"
