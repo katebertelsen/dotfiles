@@ -14,6 +14,6 @@ else
     hostPart="${IPurple}\h${Color_Off}"
 fi
 
-export PS1="${IBlack}\A${Color_Off} ${IBlue}kate.bertelsen${Color_Off} @ ${hostPart} :${IRed}\$(__git_ps1 \" \$(git_sha) %s ${Color_Off}:\") ${IYellow}\w${Color_Off}\n> "
+export PS1="${IBlack}\A${Color_Off} ${IBlue}\u${Color_Off} @ ${hostPart} :${IRed}\$(__git_ps1 \" \$(git_sha) %s ${Color_Off}:\") ${IYellow}\w${Color_Off}\n> "
 
 unset hostPart
