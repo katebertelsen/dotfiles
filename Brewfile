@@ -39,6 +39,7 @@ cask "qlstephen" # plaintext files
 brew "carthage"
 brew "swiftlint"
 cask "provisionql"
+cask "zeplin"
 
 # Android Development
 cask "android-studio"
@@ -52,6 +53,7 @@ cask "docker"
 cask "charles"
 cask "insomnia"
 cask "intellij-idea-ce"
+cask "postico"
 
 # JSON
 brew "jq"
