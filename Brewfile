@@ -13,7 +13,9 @@ brew "reattach-to-user-namespace"
 cask "bettertouchtool"
 
 # Filesystem
+cask "app-cleaner"
 cask "dropbox"
+brew "tree"
 
 # Security
 cask "1password"
@@ -21,19 +23,18 @@ cask "1password"
 # File Editing
 cask "textmate"
 cask "visual-studio-code"
+cask "qlstephen" # plaintext files, requires additional commands to get working
 
 # Git
 brew "git"
 brew "git-lfs"
 brew "tig"
 
-# Helpful
+# Development General
 brew "cloc"
-brew "tree"
 
 # Shell
 brew "shellcheck"
-cask "qlstephen" # plaintext files
 
 # iOS Development
 brew "carthage"
