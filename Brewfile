@@ -49,6 +49,7 @@ cask "android-studio"
 brew "docker"
 brew "docker-compose"
 cask "docker"
+cask "kitematic"
 
 # API Development
 cask "charles"
