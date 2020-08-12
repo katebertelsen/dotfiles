@@ -29,6 +29,7 @@ cask "qlstephen" # plaintext files, requires additional commands to get working
 brew "git"
 brew "git-lfs"
 brew "tig"
+brew "git-filter-repo"
 
 # Development General
 brew "cloc"
