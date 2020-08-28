@@ -13,7 +13,6 @@ brew "reattach-to-user-namespace"
 cask "bettertouchtool"
 
 # Filesystem
-cask "app-cleaner"
 cask "dropbox"
 brew "tree"
 
