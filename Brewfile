@@ -78,10 +78,12 @@ cask "qlimagesize"
 cask "qlvideo"
 
 # Fonts
+brew "svn" # Needed for some reason?
 cask "font-meslo-for-powerline"
 cask "font-source-code-pro"
 cask "font-source-sans-pro"
 cask "font-source-serif-pro"
+cask "font-charis-sil"
 
 # Web Browsers
 cask "firefox"
